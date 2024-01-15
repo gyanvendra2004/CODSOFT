@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color: rgb(0, 0, 25);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-color: rgb(0, 5, 42);
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li{
+     list-style: none;
+     margin: 0 23px;
+     transition: 0.7s ease-in-out;
+     
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul a:hover{
+    text-decoration: none;
+    color: blueviolet;
+    /* font-size: 1.15rem; */
+}
+
+
+
+.left{
+    font-size: 1.40rem;
+    
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+    align-items: center;
+}
+/* .leftsection .img{
+    height: 100px;
+} */
+
+ .first > div {
+
+    width: 43%;
+    /* background-color: brown; */
+}
+.leftsection{
+    font-size: 2.9rem;
+    /* width: 50%; */
+    margin: 70px 40px;
+    
+    
+}
+
+.rightsection img{
+    margin: 30px 0;
+    width: 65%;
+}
+.purple1{
+    color: blueviolet;
+}
+.passionate{
+    font-size: 2.25rem;
+}
+.purple{
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+
+main hr{
+    border: 0;
+    background: blueviolet;
+    height: 1.4px;
+    margin: 40px 84px;
+}
+.button {
+    display: flex;
+}
+.button2 button{
+    border: 0px;
+    border-radius: 50%;
+    color: white;
+    background-color: blueviolet;
+    width: 100px;
+    height: 35px; 
+    
+    margin: 0px 20px;
+    position: relative;
+    /* box-shadow: 0 0 8px 3px rgb(231, 215, 234); */
+    border-radius: 30px;
+    background-color: blueviolet;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .6s ease-in-out;
+    font-weight: 1000;
+}
+.button1 button{
+    font-weight: 1000;
+    border: 0px;
+    border-radius: 50%;
+    color: white;
+    background-color: blueviolet;
+    width: 100px;
+    height: 35px; 
+    
+    margin: 0px 20px;
+    position: relative;
+    /* box-shadow: 0 0 8px 3px rgb(231, 215, 234); */
+    border-radius: 30px;
+    background-color: blueviolet;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .6s ease-in-out;
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+.leftsection img{
+    
+    margin-top:2px;
+    margin-right: 1px;
+    height: 35px;
+    width: auto;
+    /* border-radius: 50%; */
+}
+.contact img{
+    margin-top:25px;
+    margin-right: 9px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+/* ***********SECTION2************* */
+.second{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100vw;
+    margin: 0 1px;
+}
+.left2{
+    /* background-color: brown; */
+    margin: 0 15px;
+}
+.right2 h1{
+    color: rgb(233, 112, 244);
+}
+.right2{
+    /* background-color: brown; */
+    margin: 85px 120px ;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    /* display: flex; */
+    color: white;
+}
+.purple2{
+    display:inline-flex;
+    /* color: blueviolet; */
+}
+
+/* **********section 3rd************** */
+
+.third h1{
+    margin: 80px 125px;
+    text-transform: uppercase;
+    color: rgb(233, 112, 244);
+    /* font-size: 3rem; */
+}
+.third h4{margin: 80px 125px;
+    text-transform: uppercase;
+    color: rgb(233, 112, 244);
+    text-decoration: underline 2px;
+    
+}
+.third{
+    font-size: 1.5rem;
+    /* height: 1000px; */
+    margin-bottom: 100px;
+}
+
+.third .self{
+    margin: -30px 125px;
+    width: 60vw;
+}
+.third table,th, td, tr {
+    border: 1px solid white;
+    border-collapse: collapse;
+    
+}
+.third table{
+    margin: -25px 125px;
+    width: 70%;
+    height: 15%;
+    text-align: center;
+}
+tr:hover{
+    background-color: rgb(34, 186, 116);
+}
+th{
+    background-color: rgb(151, 57, 239);
+    
+}
+th:hover{
+    background-color: aqua;
+}
+/* *******section 4th************ */
+.forth{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+.forth .right5{
+    width: 40vw;
+    /* background-color: brown; */
+}
+.forth .left5{
+    /* background-color: black; */
+    width: 40vw;
+}
+/* .forth .left5 img{
+    height: 20px;
+    width: 30px;
+    margin-left: 4px;
+} */
+.forth .mn{
+    display: flex;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.forth .mn2{
+    text-transform: uppercase;
+    color: rgba(153, 226, 43, 0.666);
+}
+.forth .location img{
+    height: 25px;
+    width: 29x;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+.forth .location{
+    display: flex;
+    margin: 0 -10px;
+}
+.forth .right5 img{
+    height: 300px;
+    border-radius: 100%;
+    width: auto;
+    border: 7px solid blueviolet;
+    margin: 50px;
+    
+}
+footer {
+    background-color: rgb(0, 5, 42);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+}
